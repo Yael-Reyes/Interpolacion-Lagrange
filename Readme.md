@@ -25,7 +25,7 @@ Este proyecto es ideado y desarrallodado por:
 
 - Enrique Yael Alvarez Reyes
 - Francisco Javier Robles Magaña
-- 
+
 ## Licencia
 Este proyecto está bajo la Licencia MIT.
 
