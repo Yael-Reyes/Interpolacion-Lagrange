@@ -20,6 +20,12 @@ Este proyecto implementa un interpolador de Lagrange, que permite realizar inter
 ## Requisitos
 *Compilador C++ compatible con C++11 o superior.*
 
+## Desarrolladores
+Este proyecto es ideado y desarrallodado por:
+
+- Enrique Yael Alvarez Reyes
+- Francisco Javier Robles Magaña
+- 
 ## Licencia
 Este proyecto está bajo la Licencia MIT.
 
