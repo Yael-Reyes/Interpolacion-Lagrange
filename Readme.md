@@ -7,7 +7,11 @@ Este proyecto implementa un interpolador de Lagrange, que permite realizar inter
 - Realiza interpolaciones polinómicas utilizando el método de Lagrange.
 - Proporciona un menú interactivo para facilitar la interacción con el interpolador.
 - Permite realizar múltiples interpolaciones en una sola ejecución.
-
+  
+## Compilar
+Para compilar seguir el siguiente comando:
+- g++ -o bin/Ejecutar src/Main.cpp -I include -std=c++11
+  
 ## Uso
 1. Ejecuta el programa.
 2. Selecciona la opción "Hacer una interpolación" en el menú.
