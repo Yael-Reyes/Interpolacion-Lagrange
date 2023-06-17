@@ -1,0 +1,40 @@
+@startuml Lagrange
+
+
+class Menu
+{
+    +formular()
+    +salir()
+}
+
+class Programa 
+{
+    +main()
+    +InterpolaciónLagrange()
+    +CalculoDelPolinomio()
+    +ValorInterpolacion()
+}
+
+class InterpolaciónLagrange
+{
+    -DatosTabla
+    +CalcularPolinomio()
+    +ValorInterpolacion()
+}
+
+class DatosTabla
+{
+    - X
+    - Y 
+    +GetX()
+    +GetY()
+}
+
+
+Menu*-- Programa
+Programa*-- InterpolaciónLagrange
+InterpolaciónLagrange--|> Programa
+InterpolaciónLagrange*-- DatosTabla
+InterpolaciónLagrange o-- DatosTabla
+
+@enduml
